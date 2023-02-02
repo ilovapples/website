@@ -3,8 +3,10 @@ html {
 	font-family: "Segoe UI", Arial, sans-serif;
 }
 .title {
-	color: #ffffff
+	color: #ffffff;
+	text-align: center;
 }
 .subtitle {
-	color: #ffffff
+	color: #ffffff;
+	text-align: center;
 }
