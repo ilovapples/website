@@ -1,7 +1,6 @@
 html {
 	background-color: #2d2d2d;
 	font-family: "Segoe UI", Arial, sans-serif;
-	color: #ffffff;
 }
 .title {
 	color: #ffffff;
@@ -10,4 +9,7 @@ html {
 .subtitle {
 	color: #ffffff;
 	text-align: center;
+}
+p {
+	color: #ffffff;
 }
