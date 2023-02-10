@@ -4,3 +4,6 @@ function search() {
 function honeycrisp() {
   window.open("honeycrisp/index.html")
 }
+function datapacks() {
+  window.open("datapacks/index.html")
+}
