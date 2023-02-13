@@ -39,7 +39,7 @@ function colormode() {
     title.setAttribute("style", "color: #ffffff");
     subtitle.setAttribute("style", "color: #ffffff");
     linkslabel.setAttribute("style", "color: #ffffff");
-    colormodeimg.setAttribute("src", "imgs/colormodes-light.png")
+    colormodeimg.setAttribute("src", "imgs/colormodes-light.png");
     buttons.setAttributes("style", "border: #d7d7d7 solid 2px; background-color: #c7c7c7");
     color = 0
   }
