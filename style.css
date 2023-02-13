@@ -47,7 +47,7 @@ p {
   padding-right: 12px;
 }
 .colormode {
-	border-radius: 0px;
+	border-radius: 5px;
 	position: absolute;
 	top: 0;
 	right: 0;
