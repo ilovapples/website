@@ -16,13 +16,17 @@ function colormode() {
     var subtitle = document.getElementById("subtitle");
     var linkslabel = document.getElementById("linkslabel");
     var colormodeimg = document.getElementById("colormodeimg");
-
+    var buttons = document.getElementsByClass("buttons");
+    
     html.setAttribute("style", "background-color: #ffffff"); 
     title.setAttribute("style", "color: #000000");
     subtitle.setAttribute("style", "color: #000000");
     linkslabel.setAttribute("style", "color: #000000");
-    colormodeimg.setAttribute("src", "imgs/colormodes-dark.png")
+    colormodeimg.setAttribute("src", "imgs/colormodes-dark.png");
+    buttons.setAttributes("style", "
     color = 1
+    
+    
   } else if (color === 1) {
     var html = document.getElementById("html");
     var title = document.getElementById("title");
