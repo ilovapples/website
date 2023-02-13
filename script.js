@@ -7,3 +7,16 @@ function honeycrisp() {
 function datapacks() {
   window.open("datapacks/index.html")
 }
+
+var color = 0
+function colormode() {
+  if (color === 0) {
+    var html = document.getElementById("html");
+    html.setAttribute("style", "background-color: #ffffff"); 
+    color = 1
+  } else if (color === 1) {
+    var html = document.getElementById("html");
+    html.setAttribute("style", "background-color: #2d2d2d");
+    color = 0
+  }
+}
