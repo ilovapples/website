@@ -24,3 +24,7 @@ button {
   padding-left: 12px;
   padding-right: 12px;
 }
+
+md-block {
+	color: white;
+}
