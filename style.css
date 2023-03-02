@@ -13,7 +13,7 @@ html {
 p {
 	color: white;
 }
-.searchbutton {
+button {
   color: white;
   font-size: 15px;
   border: #2d2d2d solid 2px;
@@ -23,32 +23,4 @@ p {
   padding-bottom: 4px;
   padding-left: 12px;
   padding-right: 12px;
-}
-.honeycrispbutton {
-  color: white;
-  font-size: 15px;
-  border: #2d2d2d solid 2px;
-  border-radius: 5px;
-  background-color: #3d3d3d;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 12px;
-  padding-right: 12px;
-}
-.datapacks {
-  color: white;
-  font-size: 15px;
-  border: #2d2d2d solid 2px;
-  border-radius: 5px;
-  background-color: #3d3d3d;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 12px;
-  padding-right: 12px;
-}
-.colormode {
-	border-radius: 5px;
-	position: absolute;
-	top: 0;
-	right: 0;
 }
