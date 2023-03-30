@@ -1,10 +1,31 @@
 <!DOCTYPE html>
 <html>
-  <head>
+	<head>
 		<title>ilovapples' Github Stuff | Platforms I'm On</title>
 		<link rel="stylesheet" href="https://ilovapples.github.io/style.css">
 		<script type="module" src="https://md-block.verou.me/md-block.js"></script>
-
+		<style>
+			table {
+				border-collapse: collapse;
+				width: 100%;
+			}
+			
+			td, th {
+				border: 2px solid #2d2d2d;
+				text-align: left;
+				padding: 8px;
+			}
+			
+			tr:nth-child(even) {
+				background-color: #3d3d3d;
+			}
+			
+			tr:nth-child(odd) {
+				background-color: #4d4d4d;
+			}
+		</style>
+				
+		
 		<meta name="viewport" content = "width = device-width, initial-scale = 1.0, minimum-scale = 1, maximum-scale = 1, user-scalable = no" />
 		<meta name="apple-mobile-web-app-title" content="ilovapples' Github Stuff | Platforms" />
 		<meta name="apple-mobile-web-app-capable" content="yes">
@@ -16,14 +37,34 @@
 		<link rel="apple-touch-icon" sizes="152x152" href="../imgs/main-icon.png">
   
 	</head>
-  	<body>
-	  	<h1 class="title">Platforms</h1>
-      <md-block style="background-color: white;">
-        | Platform | Link |
-        | -------- | ---- |
-        | Github | [ilovapples](https://github.com/ilovapples) |
-        | Modrinth | [ilovapples](https://modrinth.com/user/ilovapples)
-        | Reddit | [CraftMaster6875](https://reddit.com/u/CraftMaster6875) |
-      </md-block>
- 	</body>
+	<body>
+		<h1 class="title">Platforms</h1>
+		
+		<table>
+			<tr>
+				<th>Platform</th>
+				<th>Link</th>
+			</tr>
+			
+			<tr>
+				<td>Github</td>
+				<td><a href="https://github.com/ilovapples">ilovapples</a></td>
+			</tr>
+			<tr>
+				<td>Modrinth</td>
+				<td><a href="https://modrinth.com/user/ilovapples">ilovapples</a></td>
+			</tr>
+			<tr>
+				<td>Reddit</td>
+				<td><a href="https://reddit.com/u/CraftMaster6875">CraftMaster6875</a></td>
+			</tr>
+		</table>			
+		<!--
+		| Platform | Link |
+		| -------- | ---- |
+		| Github | [ilovapples](https://github.com/ilovapples) |
+		| Modrinth | [ilovapples](https://modrinth.com/user/ilovapples)
+		| Reddit | [CraftMaster6875](https://reddit.com/u/CraftMaster6875) |
+		-->
+	</body>
 </html>
