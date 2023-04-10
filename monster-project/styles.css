@@ -1,9 +1,39 @@
 html {
     background-color: #2d2d2d;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
     text-align: center;
+}
+
+.post {
+    text-align: center;
+    border: solid #3d3d3d 2px;
+    border-radius: 7px;
+    width: 75%;
+    margin-left: 12.5%;
+    height: 450px;
+}
+
+.post-title {
+    text-align: left;
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    size: 20px;
+    font-weight: 600;
+}
+
+.post-handle {
+    text-align: right;
+    /* margin-top: 2.5%; */
+    margin-right: 2.5%;
+    text-decoration: underline;
+    color: #00b7ff;
+}
+
+.post-img {
+    border: solid #141414 2px;
+    border-radius: 7px;
 }
