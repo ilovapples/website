@@ -13,7 +13,8 @@ h1 {
     border: solid #3d3d3d 2px;
     border-radius: 7px;
     width: 75%;
-    margin-left: 12.5%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 25px;
     height: 35%;
 }
@@ -37,4 +38,14 @@ h1 {
 .post-img {
     border: solid #141414 2px;
     border-radius: 7px;
+}
+
+.buttons {
+    border: solid #3d3d3d 3px;
+    border-radius: 6px;
+    float: right;
+}
+
+#secret {
+    float: left;
 }
