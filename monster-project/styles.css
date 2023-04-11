@@ -10,7 +10,8 @@ h1 {
 
 .post {
     text-align: center;
-    border: solid #3d3d3d 2px;
+    background-color: #282828;
+    border: solid #323232 2px;
     border-radius: 7px;
     width: 75%;
     margin-left: auto;
@@ -41,9 +42,20 @@ h1 {
 }
 
 .buttons {
-    border: solid #3d3d3d 3px;
-    border-radius: 6px;
+    border: solid #484848 3px;
+    background-color: #383838;
+    color: white;
+    border-radius: 4px;
+    width: 50px;
     float: right;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: #ffffff;
+    text-decoration: underline;
 }
 
 #secret {

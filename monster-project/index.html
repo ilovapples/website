@@ -5,13 +5,17 @@
         <link rel="stylesheet" href="styles.css">
         <link rel="icon" type="image/x-icon" href="imgs/favicon.jpg">
         <script>
-            function secret_ssshhhhh() {
+            function randnum(max) {
+                return Math.round(Math.random() * max)
+            }
+
+            function secret_ssshhhhh(delay) {
                 var title = document.getElementById('top');
                 title.innerText = "MonsterBook ( ͡° ͜ʖ ͡°)";
                 setTimeout(function () {
                     var title = document.getElementById('top');
                     title.innerText = "MonsterBook";
-                }, 7500)
+                }, delay*1000)
             }
 
             function undosecret() {
@@ -26,27 +30,27 @@
             <p id="title0" class="post-title">Lorem ipsum dolor sit amet sed.</p>
             <!-- <p id="title0" class="post-title">Me and my little bro Bigfoot at a party!</p> -->
             <p id="handle0" class="post-handle">@CtHulHu_BOI</p>
-            <img id="img0" class="post-img" src="imgs/favicon.jpg" alt="Lorem ipsum dolor sit amet sed." width="50%">
+            <img id="img0" class="post-img" src="imgs/Cthulhu_Mythos_Hrairoo.png" alt="Lorem ipsum dolor sit amet sed." width="50%">
         </div>
 
         <div id="post1" class="post">
             <p id="title1" class="post-title">Lorem ipsum dolor sit amet sed.</p>
             <!-- <p id="title0" class="post-title">Me and my little bro Bigfoot at a party!</p> -->
             <p id="handle1" class="post-handle">@BigFOOT-BRO</p>
-            <img id="img1" class="post-img" src="imgs/favicon.jpg" alt="Lorem ipsum dolor sit amet sed." width="50%">
+            <img id="img1" class="post-img" src="imgs/bigfoot.png" alt="Lorem ipsum dolor sit amet sed." width="60%">
         </div>
         
         <div id="post2" class="post">
             <p id="title2" class="post-title">Lorem ipsum dolor sit amet sed.</p>
             <!-- <p id="title0" class="post-title">Me and my little bro Bigfoot at a party!</p> -->
             <p id="handle2" class="post-handle">@Western_Witch</p>
-            <img id="img2" class="post-img" src="imgs/favicon.jpg" alt="Lorem ipsum dolor sit amet sed." width="50%">
+            <img id="img2" class="post-img" src="imgs/wickedwitchofthewest.png" alt="Lorem ipsum dolor sit amet sed." width="50%">
         </div>
         <button
             id="secret" 
             class="buttons" 
             type="button" 
-            onclick="secret_ssshhhhh()"><a href="#post0">UP</a></button>
+            onclick="secret_ssshhhhh(randnum(5))"><a href="#post0">UP</a></button>
         <button 
             class="buttons" 
             type="button"
