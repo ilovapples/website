@@ -4,26 +4,43 @@
         <title>Apogee - Monsters Unit Final Project</title>
         <link rel="stylesheet" href="styles.css">
         <link rel="icon" type="image/x-icon" href="imgs/favicon.jpg">
+        <script>
+            var questions = document.getElementsByClassName("post-question");
+            for (var i = 0; i < questions.length; i++) {
+                questions[i].innerHTML = "Q: " + questions[i].innerHTML;
+            }
+            
+            var answers = document.getElementsByClassName("post-answer");
+            for (var i = 0; i < answers.length; i++) {
+                answers[i].innerHTML = "A: " + questions[i].innerHTML;
+            }
+        </script>
         <script src="script.js"></script>
     </head>
     <body>
         <h1 id="top">MonsterBook </h1>
         <div id="post0" class="post">
             <p id="title0" class="post-title">Just chilling.</p>
+            <p id="q0" class="post-question">What made you want to start scaring people?</p>
+            <p id="a0" class="post-answer">PLACEHOLDER ANSWER</p>
             <p id="handle0" class="post-handle">@SCARY_BOI</p>
-            <img id="img0" class="post-img" src="imgs/rdr-0.JPG" alt="Lorem ipsum dolor sit amet sed." width="50%">
+            <img id="img0" class="post-img" src="imgs/resident-evil-0.png" alt="Some guy from Resident Evil." width="50%">
         </div>
 
         <div id="post1" class="post">
             <p id="title1" class="post-title">death tastes funny.</p>
+            <p id="q1" class="post-question">What made you want to start scaring people?</p>
+            <p id="a1" class="post-answer">PLACEHOLDER ANSWER</p>
             <p id="handle1" class="post-handle">@i_exist___ithink</p>
-            <img id="img1" class="post-img" src="imgs/rdr-1.JPG" alt="Lorem ipsum dolor sit amet sed." width="60%">
+            <img id="img1" class="post-img" src="imgs/resident-evil-1.png" alt="Some other guy from Resident Evil." width="60%">
         </div>
         
         <div id="post2" class="post">
-            <p id="title2" class="post-title">Lorem ipsum dolor sit amet sed.</p>
-            <p id="handle2" class="post-handle">@Western_Witch</p>
-            <img id="img2" class="post-img" src="imgs/wickedwitchofthewest.png" alt="Lorem ipsum dolor sit amet sed." width="50%">
+            <p id="title2" class="post-title">Interview with Verdugo:</p>
+            <p id="q2" class="post-question">What made you want to start scaring people?</p>
+            <p id="a2" class="post-answer">PLACEHOLDER ANSWER</p>
+            <p id="handle2" class="post-handle">@VerDUDEgo</p>
+            <img id="img2" class="post-img" src="imgs/verdugo-img.png" alt="Verdugo from Resident Evil." width="50%">
         </div>
         <button
             id="secret" 
