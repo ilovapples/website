@@ -41,6 +41,15 @@ h1 {
     border-radius: 7px;
 }
 
+.post-question {
+    text-align: left;
+    margin-left: 2.5%;
+}
+.post-answer {
+    text-align: right;
+    margin-right: 2.5%;
+}
+
 .buttons {
     border: solid #484848 3px;
     background-color: #383838;
