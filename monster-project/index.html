@@ -4,17 +4,6 @@
         <title>Apogee - Monsters Unit Final Project</title>
         <link rel="stylesheet" href="styles.css">
         <link rel="icon" type="image/x-icon" href="imgs/favicon.jpg">
-        <script>
-            var questions = document.getElementsByClassName("post-question");
-            for (var i = 0; i < questions.length; i++) {
-                questions[i].innerHTML = "Q: " + questions[i].innerHTML;
-            }
-            
-            var answers = document.getElementsByClassName("post-answer");
-            for (var i = 0; i < answers.length; i++) {
-                answers[i].innerHTML = "A: " + questions[i].innerHTML;
-            }
-        </script>
         <script src="script.js"></script>
     </head>
     <body>
@@ -51,5 +40,17 @@
             class="buttons" 
             type="button"
             onclick="undosecret()"><a href="#top">UP</a></button>
+        
+        <script>
+            var questions = document.getElementsByClassName("post-question");
+            for (var i = 0; i < questions.length; i++) {
+                questions[i].innerHTML = "Q: " + questions[i].innerHTML;
+            }
+            
+            var answers = document.getElementsByClassName("post-answer");
+            for (var i = 0; i < answers.length; i++) {
+                answers[i].innerHTML = "A: " + questions[i].innerHTML;
+            }
+        </script>
     </body>
 </html>
