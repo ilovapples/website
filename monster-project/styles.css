@@ -65,6 +65,11 @@ h1 {
     border-radius: 7px;
 }
 
+.warning-img {
+    border: solid #C60000 2px;
+    border-radius: 7px;
+}
+
 a:link,
 a:visited,
 a:hover,
