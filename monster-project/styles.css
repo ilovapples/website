@@ -66,11 +66,18 @@ h1 {
     width: 75%;
     height: 10%;
     margin-left: 25px;
+    float: left;
 }
 
 .warning-img {
     border: solid #C60000 2px;
     border-radius: 7px;
+    float: left;
+}
+
+.warning-text {
+    font-family: "Courier Prime", "Courier New", Arial, Helvetica, sans-serif;
+    float: right;
 }
 
 a:link,
