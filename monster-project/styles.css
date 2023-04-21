@@ -59,6 +59,12 @@ h1 {
     float: right;
 }
 
+.danger-warning {
+    background-color: #E40000;
+    border: solid #C60000 3px;
+    border-radius: 7px;
+}
+
 a:link,
 a:visited,
 a:hover,
