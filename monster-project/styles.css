@@ -63,6 +63,9 @@ h1 {
     background-color: #E40000;
     border: solid #C60000 3px;
     border-radius: 7px;
+    width: 75%;
+    height: 10%;
+    margin-left: 25px;
 }
 
 .warning-img {
