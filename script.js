@@ -10,3 +10,6 @@ function datapacks() {
 function platforms() {
   window.open("platforms/index.html")
 }
+function opitems() {
+  window.open("opitems-mod/index.html")
+}
