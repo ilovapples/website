@@ -8,8 +8,8 @@ function downloads(project) {
         window.open("https://github.com/ilovapples/opitems-mod/releases")
     }
 }
-function directDownload(project) {
+function directDownload(project, version) {
     if (project == "opitems") {
-        window.open("https://github.com/ilovapples/opitems-mod/releases/download/v1.1.0/opitems-mod-1.1.0.jar")
+        window.open("https://github.com/ilovapples/opitems-mod/releases/download/v" + version + "/opitems-mod-" + version + ".jar")
     }
 }
